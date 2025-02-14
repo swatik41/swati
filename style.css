@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 157, 41);
+}
+.logo{
+    font-size: 100px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.image{
+    width: 100%;
+    height: 50px;
+}
+.Container{
+    display: flex;
+    background-color: orangered;
+}
+.img_Container{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+}
+.cc{
+    margin: 30px;
+    background-color: rgb(231, 157, 104);
+}
+.cc img{
+    width: 200px;
+    height: 300px;
+
+    
+}
+.carousel img{
+    width: 1300px;
+    height: 400px;
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    margin: 1%;
+}
+.product{
+    text-align: center;
+    border: 1px solid hsl(25, 69%, 69%);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.product button{
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 15px;
+}
+.product img{
+    width: 300px;
+    height: 200px;
+}
